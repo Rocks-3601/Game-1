@@ -1,12 +1,12 @@
 function setup(){
      createCanvas(400, 400);
-     // vars
-     let xspeed = 2;
-     let yspeed = 3;
-     let x = 200;
-     let y = 200;
-     let size = 50
 }
+// vars
+let xspeed = 2;
+let yspeed = 3;
+let x = 200;
+let y = 200;
+let size = 50
 
 function draw(){
      background(12, 50, 200);
