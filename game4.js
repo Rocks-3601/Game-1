@@ -27,7 +27,7 @@ function draw(){
           y = y + ypeed;
      }
      
-     if (mouseClicked()){
+     function mouseClicked(){
           xspeed = random(1, 5);
           yspeed = random(1, 5);
      }
