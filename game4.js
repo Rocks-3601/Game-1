@@ -12,10 +12,11 @@ function draw(){
      background(12, 50, 200);
      fill(255, 125, 0);
      noStroke();
-     ellipse(x, y, 50);
+     ellipse(x, y, size);
      x = x + xspeed;
      y = y + yspeed;
      if (mouseClicked()){
-          
+          xspeed = random(1, 5);
+          yspeed = random(1, 5);
      }
 }
