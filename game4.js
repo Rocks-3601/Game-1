@@ -31,4 +31,5 @@ function draw(){
           xspeed = random(1, 5);
           yspeed = random(1, 5);
      }
+     console.log(x + ' , ' + y)
 }
