@@ -1,11 +1,11 @@
 function setup(){
      createCanvas(400, 400);
      // vars
-     var xspeed = 2;
-     var yspeed = 3;
-     var x = 200;
-     var y = 200;
-     var size = 50
+     let xspeed = 2;
+     let yspeed = 3;
+     let x = 200;
+     let y = 200;
+     let size = 50
 }
 
 function draw(){
