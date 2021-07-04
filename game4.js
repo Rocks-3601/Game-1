@@ -15,15 +15,15 @@ function draw(){
      ellipse(x, y, size);
      x = x + xspeed;
      y = y + yspeed;
-     if (x >= 400 - size){
+     if (x >= 400 - size/2){
           x = x - (xspeed * 2);
-     }else if (x <= 0 + size){
+     }else if (x <= 0 + size/2){
           x = x + (xspeed * 2);
      }
 
-     if (y >= 400 - size){
+     if (y >= 400 - size/2){
           y = y - (yspeed * 2);
-     }else if (x <= 0 + size){
+     }else if (x <= 0 + size/2){
           y = y + (yspeed * 2);
      }
      
