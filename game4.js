@@ -16,7 +16,7 @@ function draw(){
      x = x + xspeed;
      y = y + yspeed;
      if (x >= 400 - size){
-          x = x - (xspeed + 2);
+          x = x - (xspeed * 2);
      }else if (x <= 0 + size){
           x = x + (xspeed * 2);
      }
@@ -24,7 +24,7 @@ function draw(){
      if (y >= 400 - size){
           y = y - (yspeed * 2);
      }else if (x <= 0 + size){
-          y = y + (ypeed * 2);
+          y = y + (yspeed * 2);
      }
      
      function mouseClicked(){
