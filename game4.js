@@ -14,7 +14,7 @@ function draw(){
      noStroke();
      ellipse(x, y, size);
      x = x + xspeed;
-     y = y + yspeed;
+     y = y - yspeed;
      if (x >= 400 - (size/2)){
           xspeed = xspeed - (xspeed*2);
      }else if (x <= 0 + (size/2)){
