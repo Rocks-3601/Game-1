@@ -23,7 +23,7 @@ function draw(){
 
      if (y >= 400 - (size/2)){
           yspeed = yspeed - (yspeed*2);
-     }else if (x <= 0 + (size/2)){
+     }else if (y <= 0 + (size/2)){
           yspeed = yspeed + (yspeed*2);
      }
      
