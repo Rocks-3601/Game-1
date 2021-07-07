@@ -15,6 +15,10 @@ function draw(){
      ellipse(x, y, size);
      x = x + xspeed;
      y = y - yspeed;
+     function mouseClicked(){
+          xspeed = random(1, 5);
+          yspeed = random(1, 5);
+     }
      if (x >= 400 - (size/2)){
           xspeed = xspeed - (xspeed*2);
      }else if (x <= 0 + (size/2)){
@@ -27,8 +31,4 @@ function draw(){
           yspeed = yspeed - (yspeed*2);
      }
      
-     function mouseClicked(){
-          xspeed = random(1, 5);
-          yspeed = random(1, 5);
-     }
 }
