@@ -16,17 +16,15 @@ function draw(){
      x = x + xspeed;
      y = y + yspeed;
      if (x >= 400 - (size/2)){
-          console.log("x > 400");
-          x = x - (xspeed * 2);
+          xspeed = xspeed - (xspeed*2);
      }else if (x <= 0 + (size/2)){
-          console.log("x < 0");
-          x = x + (xspeed * 2);
+          xspeed = xspeed - (xspeed*2);
      }
 
      if (y >= 400 - (size/2)){
-          y = y - (yspeed * 2);
+          yspeed = yspeed - (yspeed*2);
      }else if (x <= 0 + (size/2)){
-          y = y + (yspeed * 2);
+          yspeed = yspeed - (yspeed*2);
      }
      
      function mouseClicked(){
